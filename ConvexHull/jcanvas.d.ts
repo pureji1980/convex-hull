@@ -5,6 +5,7 @@ interface JQuery {
 	drawArc(options: any): JQuery;
 	drawLine(options: any): JQuery;
 	drawText(options: any): JQuery;
+	drawRect(options: any): JQuery; //append
 	removeLayer(name: string): JQuery;
 	removeLayerGroup(name: string): JQuery;
 	setLayer(name: string, options: any): JQuery;
